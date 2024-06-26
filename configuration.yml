@@ -1,0 +1,13 @@
+# configuration.yml file
+data_source aws_postgres_retail:
+  type: postgrsnowflake
+  host: soda-demo
+  username: ${NITHESHKUMAR16}
+  password: ${Expleo@123}
+  database: OFFICE
+  schema: OFFICE_UNIT8
+# Refer to https://go.soda.io/api-keys
+soda_cloud:
+  host: cloud.us.soda.io
+  api_key_id: ${d921fac5-485f-4710-8309-ad8fe9f0cfa2}
+  api_key_secret: ${bOBBpHW_z81AymjeERVa1XS3PR5eFAUEOLI0gjMWDonA9yAu8BjxVA}
